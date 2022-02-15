@@ -1,0 +1,7 @@
+.dockerignore
+.env.example
+.gitignore
+Dockerfile
+docker-compose.yml
+html/
+db-data/
