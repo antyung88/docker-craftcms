@@ -1,5 +1,5 @@
-# CraftCMS in Docker & Docker-Slim
-Run Craft CMS in Docker & Docker-Slim
+# CraftCMS in Docker & Docker-Slim [![Github Packages CI](https://github.com/antyung88/docker-craftcms/actions/workflows/master.yml/badge.svg)](https://github.com/antyung88/docker-craftcms/actions/workflows/master.yml)
+Run Craft CMS in Docker & Docker-Slim 
 
 ```
 REPOSITORY                        TAG       IMAGE ID       CREATED          SIZE
@@ -98,7 +98,9 @@ docker-compose up -d
 
 ---
 
-# Docker Compose (Slim) TESTING PHASE DO NOT USE IN PRODUCTION
+# Docker Compose (Slim) 
+
+## TESTING PHASE DO NOT USE IN PRODUCTION
 
 ```
 version: '3.3'
