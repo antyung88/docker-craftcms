@@ -107,7 +107,6 @@ version: '3.3'
 services:
   craftcms:
     image: ghcr.io/antyung88/craftcms.slim:latest
-    restart: always
     env_file:
       - .env
     restart: always
