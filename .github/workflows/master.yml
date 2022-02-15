@@ -38,7 +38,7 @@ jobs:
       - run: curl -L -O https://downloads.dockerslim.com/releases/1.37.3/dist_linux.tar.gz
       - run: tar -zxvf dist_linux.tar.gz
       - run: script -q -c "./dist_linux/docker-slim --debug version"
-      - run: script -q -c "./dist_linux/docker-slim build --target craftcms --http-probe-off --include-path /app --tag ghcr.io/antyung88/craftcms.slim"
+      - run: script -q -c "./dist_linux/docker-slim build --target craftcms --http-probe-off --include-path /app --include-path /run --tag ghcr.io/antyung88/craftcms.slim"
       
       - name: Push
         run: |
